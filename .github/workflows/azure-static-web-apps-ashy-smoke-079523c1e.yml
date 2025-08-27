@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - blue-bay-48r7594
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:
@@ -44,3 +45,4 @@ jobs:
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_ASHY_SMOKE_079523C1E }}
           action: "close"
+
